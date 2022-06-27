@@ -1,3 +1,14 @@
+# Para el FronEnt
+Se utilizo Bootstrap para la interfaz y poder hacerlo de forma responsive.
+# Base de Datos
+Se utilizo FireStore la cual es una DataBase Cloud de Firebase, esto tomando en cuenta su facilidad al hacer un crud y su velocidad al realizar las petciones de ingreso, eliminación y actualización.
+# Hosting
+Se utilizo el Hosting de Firebase el cual permite desplegar el sistema de forma gratuita.
+# Funcionamiento
+Se realizo un login con la finalidad de proteger la información, es decir que cada usuario tendra acceso exclusivamente a su información. Es importante mecionar que se trabajaron con componentes para poder utilizar el enrutador con la finalidad de poder navegar por la paginas de manera mas rapida y precisa. se realizo la configuración respectiva para que solamente el administrador pueda ver todas las reservaciones. Algo importante, el login se realizo junto con Authentication de Firebase por lo que si se desea logear se deben utilizar los correos que se muentran en la pagina de inicio, también es posible registrarse. Para poder registrarse debe poner @dominio.com ya que estan con las validaciones basicas correspondientes.
+
+Una mejora que se le puede dar a este programa es utilizando microservicios para que el usuario pueda realizar una reserva desde su telefono movil por medio de una app. 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -5,6 +16,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 
 In the project directory, you can run:
+
 
 ### `npm start`
 
@@ -68,3 +80,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
